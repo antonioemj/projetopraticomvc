@@ -1,0 +1,31 @@
+{
+    "name": "antonio/mvcc",
+    "description": "teste",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Antonio\\Mvcc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "antonio",
+            "email": "antonioemj@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": { 
+        "php":">=7.2"
+},
+"autoload": {
+    "psr-4":{
+        "app\\":"app/",
+        "core\\":"core/"
+    },
+  
+    "files": [
+        "config/config.php"
+    ]
+}
+
+}
